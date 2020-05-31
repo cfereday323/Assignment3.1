@@ -23,9 +23,9 @@ echo "PROGRAM FINISHED"
 
 all1()
 {
-test=1533
-jokes=2042
-for ((i=$test; i <= jokes; ++i )) #create loop and for each number between test and joke,assigned to i
+all3=1533
+all4=2042
+for ((i=$all3; i <= all4; ++i )) #create loop and for each number between all3 and all4,assigned to i
 do
 all2="${url}${i}${extension}" #stick together
 echo "Downloading DSCO$i with the file name DSCO$i$extension"
